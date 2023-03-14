@@ -4,7 +4,7 @@ from datetime import datetime
 from streamlit.components.v1 import html
 import pandas as pd
 import csv
-st.set_page_config(page_title="Brainstorming Buddy")
+st.set_page_config(page_title="Brainstorming Buddies from Boshra and Sahar")
 
 
 html_temp = """
@@ -21,7 +21,7 @@ button = """
 with st.sidebar:
     st.markdown("""
     # About 
-    Brainstorming Buddy is a helper tool built on GPT-3 to generate ideas on a given topic. 
+    Brainstorming Buddy is a helper tool built on GPT-3 to generate ideas on a given topic and we used it for our mini-project 
     """)
     st.markdown(html_temp.format("rgba(55, 53, 47, 0.16)"),unsafe_allow_html=True)
     st.markdown("""
